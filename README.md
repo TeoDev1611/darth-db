@@ -10,6 +10,12 @@
 
 This is a tiny database for small projects using many formats inspired in **lowdb**
 
+## 💻 How install?
+
+```
+go get github.com/TeoDev1611/darth-db
+```
+
 ## 💁 Todo
 
 - [x] Write Json Files
