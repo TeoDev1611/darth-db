@@ -13,7 +13,7 @@ func main() {
 	`)*/
 	/* 	var data = map[string]interface{} */
 
-	dataMap := data.GetAllDataFile("./db.json")
+	dataMap := data.GetAllDataFile("./dbaaa.json")
 	fmt.Print(dataMap)
 
 	//	files.WriteJsonDB("", "  ", true)

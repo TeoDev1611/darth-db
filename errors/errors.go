@@ -10,7 +10,7 @@ import (
 /* Set the log options :D */
 
 func init() {
-	log.SetFormatter(&log.JSONFormatter{})
+	log.SetFormatter(&log.JSONFormatter{PrettyPrint: true})
 	log.SetOutput(os.Stdout)
 	log.SetLevel(log.ErrorLevel)
 }
@@ -46,6 +46,6 @@ func CheckErrors(err error) {
 		log.WithFields(log.Fields{
 			"error": err,
 			"msg":   "Error detected read the error field for more information",
-		}).Error("New error detected :D")
+		}).Error("New error detected :c if this is a bug report in the repo")
 	}
 }
