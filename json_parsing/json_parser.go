@@ -8,8 +8,8 @@ import (
 
 func StringToMap(text string) map[string]interface{} {
 	byteText := []byte(text)
-	var dat map[string]interface{}
-	err := json.Unmarshal(byteText, &dat)
+	var data map[string]interface{}
+	err := json.Unmarshal(byteText, &data)
 	errors.CheckErrors(err)
-	return dat
+	return data
 }
