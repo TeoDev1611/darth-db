@@ -2,6 +2,9 @@
   <p>
     <img width="100" src="./img/dart.png">
   </p>
+  <img src="https://img.shields.io/github/license/teodev1611/darth-db?style=flat-square">
+  <img src="https://img.shields.io/github/stars/teodev1611/darth-db?style=social">
+  <img src="https://img.shields.io/github/go-mod/go-version/teodev1611/darth-db/main?filename=go.mod">
   <h1>The Darth Database for the Dark Side</h1>
   <hr>
 </div>
