@@ -15,3 +15,19 @@ func GetAllDataFile(filename string) []interface{} {
 	errors.CheckErrors(err2)
 	return jsonData
 }
+
+func GetSingleKey(filename, key string, position int) (string, interface{}) {
+	jsonData := GetAllDataFile(filename)
+	listInfo := jsonData[position]
+	v, ok := listInfo.(map[string]interface{})
+	if !ok {
+		errors.NewError("No can transformate from interface{} to map[string]interface{}", true)
+	}
+	for k, val := range v {
+		if k == key {
+			return k, val
+			break
+		}
+	}
+	return "No data", false
+}
