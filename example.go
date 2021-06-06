@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/TeoDev1611/darth-db/files"
+	"fmt"
+
+	"github.com/TeoDev1611/darth-db/data"
 )
 
 func main() {
@@ -10,5 +12,9 @@ func main() {
 	{"page": 1, "fruits": ["apple", "peach"]}
 	`)*/
 	/* 	var data = map[string]interface{} */
-	files.WriteJsonDB("", "", true)
+
+	dataMap := data.GetAllDataFile("./db.json")
+	fmt.Print(dataMap)
+
+	//	files.WriteJsonDB("", "  ", true)
 }

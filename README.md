@@ -14,7 +14,7 @@ This is a tiny database for small projects using many formats inspired in **lowd
 
 - [x] Write Json Files
 - [x] Parse String to Map String interface
-- [ ] Get all data from the json
+- [x] Get all data from the json
 - [ ] Get a single value of the json
 - [ ] Push method
 - [ ] Encrypt function
