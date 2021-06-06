@@ -21,7 +21,7 @@ go get github.com/TeoDev1611/darth-db
 - [x] Write Json Files
 - [x] Parse String to Map String interface
 - [x] Get all data from the json
-- [ ] Get a single value of the json
+- [x] Get a single value of the json
 - [ ] Push method
 - [ ] Encrypt function
 - [ ] Examples
