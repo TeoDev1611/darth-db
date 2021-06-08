@@ -1,19 +1,14 @@
-package files
+package json
 
 import (
-	"crypto/aes"
-	"crypto/cipher"
-	"crypto/rand"
 	"encoding/json"
-	"fmt"
-	"io"
 	"io/ioutil"
 	"os"
 
 	"github.com/TeoDev1611/darth-db/errors"
 )
 
-func WriteJSONDB(name, spaces string, empty bool, data ...map[string]interface{}) {
+func WriteDB(name, spaces string, empty bool, data ...map[string]interface{}) {
 	if spaces == "" {
 		spaces = "  "
 	}
@@ -33,5 +28,3 @@ func WriteJSONDB(name, spaces string, empty bool, data ...map[string]interface{}
 	err2 := ioutil.WriteFile(name, file, os.ModePerm)
 	errors.CheckErrors(err2)
 }
-
-
