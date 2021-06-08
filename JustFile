@@ -1,0 +1,6 @@
+alias commit := pre-commit
+
+
+pre-commit:
+    go fmt ./...
+    echo "Formated succesfuly"

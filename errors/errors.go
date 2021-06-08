@@ -28,8 +28,8 @@ func NewError(msg string, hight bool) {
 				"msg":   "Error Hight level detected",
 			}).Fatal("FIX THIS ERROR NOW!")
 		}
-		/* If not is priority make a simple log :D */
-	} else {
+/* If not is priority make a simple log :D */
+		} else {
 		err := errors.New(msg)
 		if err != nil {
 			log.WithFields(log.Fields{
