@@ -19,17 +19,40 @@ This is a tiny database for small projects using many formats inspired in **lowd
 go get github.com/TeoDev1611/darth-db
 ```
 
+## Examples 👌
+
+Write a json database with the data:
+
+```go
+package main
+
+import (
+	"github.com/TeoDev1611/darth-db/json"
+)
+
+func main() {
+	data := map[string]interface{}{
+		"database":    "darth-db",
+		"awesome":     true,
+		"easy":        true,
+		"description": "A little db for the dark side",
+	}
+	json.WriteDB("sampledb.json", "  ", false, data)
+}
+```
+
 ## 💁 Todo
 
 - [x] Write Json Files
 - [x] Parse String to Map String interface
 - [x] Get all data from the json
 - [x] Get a single value of the json
-- [ ] Push method
+- [x] Support for toml 
 - [ ] Encrypt function
-- [ ] Examples
+- [x] Examples
 - [ ] Support for Yaml
 
 ## ✅ Authors
 
-Special thanks to [GolangUA](https://github.com/GolangUA/gopher-logos) and [Red Panda](http://panda-art.red/) for this beautiful illustration 🤟. Project made by @TeoDev1611 
+Special thanks to [GolangUA](https://github.com/GolangUA/gopher-logos) and [Red Panda](http://panda-art.red/) for this beautiful illustration 🤟. 
+Project made by @TeoDev1611 
