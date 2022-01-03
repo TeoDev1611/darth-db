@@ -1,8 +1,8 @@
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/pelletier/go-toml/v2 v2.0.0-beta.3 h1:PNCTU4naEJ8mKal97P3A2qDU74QRQGlv4FXiL1XDqi4=
-github.com/pelletier/go-toml/v2 v2.0.0-beta.3/go.mod h1:aNseLYu/uKskg0zpr/kbr2z8yGuWtotWf/0BpGIAL2Y=
+github.com/pelletier/go-toml/v2 v2.0.0-beta.6 h1:TA3qh4Cq1VOjh4AJnMHrUFbAsIbD7OnOvpaIRYsU0sI=
+github.com/pelletier/go-toml/v2 v2.0.0-beta.6/go.mod h1:ke6xncR3W76Ba8xnVxkrZG0js6Rd2BsQEAYrfgJ6eQA=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sirupsen/logrus v1.8.1 h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE=
